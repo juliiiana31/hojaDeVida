@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Balsamiq Sans', cursive;
-    margin-top: 70%;
+
 }
 
 ul{
@@ -38,8 +38,12 @@ a {
     background-color: #A13232;
 }
 
-.tituloHabilidad {
+.tituloHabilidad{
     color: #A13232;
+}
+
+.download{
+    background-color: #A13232;
 }
 
 .cabeceraContenido {
@@ -63,32 +67,6 @@ ol {
 
 figure {
     margin: 0;
-}
-
-.menu {
-    height: inherit;
-    display: flex;
-    align-items: center;
-}
-
-.header ol {
-    display: flex;
-    height: inherit;
-    align-items: center;
-}
-
-
-.header ol li {
-    margin-right: 10px;
-}
-
-.header {
-    color: white;
-    text-decoration: none;
-    height: inherit;
-    display: flex;
-    align-items: center;
-    padding: 0 1.0px;
 }
 
 .container {
@@ -129,9 +107,7 @@ h1 {
 }
 
 .datos-personales {
-    background: white;
     padding: 50px;
-    color: black;
 }
 
 .navbar {
@@ -148,11 +124,6 @@ h1 {
     justify-content: space-between;
     background-color: rgb(161, 50, 50);
     box-shadow: 0 0 10px 0 red;
-
-}
-
-.link {
-    color: white;
 }
 
 a {
@@ -161,7 +132,6 @@ a {
 
 a:hover {
     color: rgb(255, 0, 0);
-
 }
 
 h2 {
@@ -171,7 +141,7 @@ h2 {
 }
 
 .cards {
-| display: flex;
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -208,22 +178,6 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.formulario-email input {
-    border-color: gray;
-    padding: 10px;
-    width: 150px;
-    border-radius: 5px;
-}
-
-.formulario-email{
-    background: transparent;
-    padding: 10px;
-    margin-top: 10px;
-    width: 100px;
-    border-radius: 5px;
-    color: white;
 }
 
 .link-social.facebook {
