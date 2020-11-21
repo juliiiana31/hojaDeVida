@@ -130,10 +130,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: rgb(255, 0, 0);
-}
-
 h2 {
     color: rgb(68, 17, 17);
     text-transform: uppercase;
